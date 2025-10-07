@@ -10,16 +10,16 @@ publish = false
 workspace = true
 
 [dependencies]
-anyhow = "1.0.98"
-async-trait = "0.1.88"
+anyhow = "1.0.100"
+async-trait = "0.1.89"
 axum = "0.7.5"
 chrono = { version = "0.4.39", default-features = false }
 clap = { version = "4.5.23", features = ["derive"] }
 futures = "0.3.31"
 http = "1.2.0"
-k8s-controller = "0.6.0"
+k8s-controller = "0.6.1"
 k8s-openapi = { version = "0.26.0", features = ["v1_31"] }
-kube = { version = "2.0.0", default-features = false, features = ["client", "runtime", "ws"] }
+kube = { version = "2.0.1", default-features = false, features = ["client", "runtime", "ws"] }
 maplit = "1.0.2"
 mz-alloc = { path = "../alloc", default-features = false }
 mz-alloc-default = { path = "../alloc-default", optional = true, default-features = false }
@@ -34,17 +34,17 @@ mz-server-core = { path = "../server-core", default-features = false }
 prometheus = { version = "0.13.4", default-features = false }
 rand = "0.8.5"
 reqwest = { version = "0.12", features = ["cookies", "json"] }
-semver = "1.0.16"
+semver = "1.0.27"
 serde = { version = "1.0.219", features = ["derive"] }
-serde_json = "1.0.127"
+serde_json = "1.0.145"
 sha2 = "0.10.9"
-thiserror = "2.0.12"
+thiserror = "2.0.17"
 tokio = "1.44.1"
 tokio-postgres = "0.7.8"
 tower-http = "0.6.6"
 tracing = "0.1.37"
 urlencoding = "2.1.3"
-uuid = { version = "1.17", features = ["serde", "v4"] }
+uuid = { version = "1.18", features = ["serde", "v4"] }
 workspace-hack = { version = "0.0.0", path = "../workspace-hack", optional = true }
 
 [features]

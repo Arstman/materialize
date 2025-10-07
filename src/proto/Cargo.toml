@@ -11,7 +11,7 @@ publish = false
 workspace = true
 
 [dependencies]
-anyhow = "1.0.98"
+anyhow = "1.0.100"
 chrono = { version = "0.4.39", default-features = false, features = ["serde", "std"], optional = true }
 chrono-tz = { version = "0.8.1", features = ["serde", "case-insensitive"], optional = true }
 globset = "0.4.16"
@@ -21,11 +21,11 @@ num = "0.4.3"
 proptest = { version = "1.7.0", default-features = false, features = ["std"] }
 proptest-derive = { version = "0.5.1", features = ["boxed_union"] }
 prost = { version = "0.13.5", features = ["no-recursion-limit"] }
-regex = "1.11.1"
+regex = "1.11.3"
 serde = { version = "1.0.219", features = ["derive", "rc"] }
-serde_json = { version = "1.0.127", features = ["arbitrary_precision"] }
+serde_json = { version = "1.0.145", features = ["arbitrary_precision"] }
 url = { version = "2.3.1", features = ["serde"] }
-uuid = "1.17.0"
+uuid = "1.18.1"
 workspace-hack = { version = "0.0.0", path = "../workspace-hack", optional = true }
 
 [features]
